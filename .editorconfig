@@ -1,0 +1,19 @@
+# This file is for unifying the coding style for different editors and IDEs
+# editorconfig.org
+
+[*]
+charset = utf-8
+indent_size = 2
+indent_style = space
+keep_existing_arrangement = true
+space_after_attributes = false
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 160
+
+# ReSharper properties
+resharper_space_after_attributes = true
+resharper_space_within_single_line_array_initializer_braces = true
+
+[*.cs]
+indent_size = 4
